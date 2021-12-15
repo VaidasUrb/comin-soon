@@ -11,6 +11,12 @@
 /* CUSTOM STYLE BELOW this COMMENT, FOR THIS PAGE */
 
 /* HERO */
+.column > * {
+  margin-bottom: 20px;
+}
+.column > *:last-child {
+  margin-bottom: 0px;
+}
 .hero {
   min-height: 100vh;
   padding-bottom: 30px;
@@ -50,6 +56,30 @@
 .hero .form {
   margin-bottom: 15px;
 }
+
 /* MAIN CONTENT */
+
+.content-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+.content-description {
+  font-size: 17px;
+  color: #777;
+}
+
+.progres-bar {
+}
+
+.content-description > .link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.content-description > .link:hover {
+  text-decoration: underline;
+}
 
 /* FOOTER */
