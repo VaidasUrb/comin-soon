@@ -46,6 +46,10 @@
   resize: vertical;
 }
 
+.column > .form > .btn {
+  float: right;
+}
+
 .form * {
   outline: 1px solid var(--solid-color);
 }
