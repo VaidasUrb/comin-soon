@@ -87,10 +87,11 @@
 .content-description > .link:hover {
   text-decoration: underline;
 }
-@media (min-width) .main > .form > input.input {
-  width: calc(50% - 10px);
+@media (min-width: 900px) {
+  .main > .form > input.input {
+    width: calc(50% - 10px);
+  }
 }
-
 .main > .form > input.input:last-of-type {
   float: right;
 }
