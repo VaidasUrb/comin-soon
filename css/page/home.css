@@ -54,9 +54,18 @@
 }
 
 .hero .form {
-  margin-bottom: 15px;
+  width: 90%;
+  margin-bottom: 0 5% 15px;
 }
 
+.hero .form > .input {
+  color: #fff;
+  border-color: currentColor;
+}
+
+.hero .form > .input::placeholder {
+  color: currentColor;
+}
 /* MAIN CONTENT */
 
 .content-title {
@@ -77,6 +86,13 @@
 
 .content-description > .link:hover {
   text-decoration: underline;
+}
+@media (min-width) .main > .form > input.input {
+  width: calc(50% - 10px);
+}
+
+.main > .form > input.input:last-of-type {
+  float: right;
 }
 
 /* FOOTER */

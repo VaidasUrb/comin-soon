@@ -1,4 +1,6 @@
 .form {
+  display: inline-block;
+  width: 100%;
 }
 
 .form > * {
@@ -26,8 +28,11 @@
 }
 
 .form > .input {
+  width: 100%;
+  float: left;
   border: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  background-color: transparent;
   font-size: 17px;
   line-height: 1.5em;
   padding: 0.5em 0;
