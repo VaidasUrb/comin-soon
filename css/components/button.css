@@ -1,12 +1,16 @@
 .btn {
-  padding: 0.5em;
-  font-size: 17px;
+  padding: 0.8em 1em;
+  font-size: 18px;
   color: #fff;
-  line-height: 0.8em;
+  line-height: 1em;
   background-color: var(--secondary-color-1);
   border: none;
   border-radius: 0.1em;
   cursor: pointer;
+}
+
+.btn.btn-round {
+  border-radius: 1.3em;
 }
 
 .btn:hover {
