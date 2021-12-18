@@ -13,6 +13,16 @@
   border-radius: 1.3em;
 }
 
+.btn.btn-round.fa {
+  width: 1.25em;
+  height: 1.25em;
+  font-size: 40px;
+  margin-top: -0.5em;
+  line-height: 1.2em;
+  padding: 0;
+  box-shadow: 0px 2px 8px #0005;
+}
+
 .btn:hover {
   background-color: var(--secondary-color-2);
 }
