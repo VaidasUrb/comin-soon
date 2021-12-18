@@ -23,6 +23,11 @@
   box-shadow: 0px 2px 8px #0005;
 }
 
+.btn.btn-round.fa:hover {
+  background-color: var(--secondary-color-2);
+  color: #fff;
+}
+
 .btn:hover {
   background-color: var(--secondary-color-2);
 }
