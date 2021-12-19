@@ -13,12 +13,7 @@
 /* CUSTOM STYLE BELOW this COMMENT, FOR THIS PAGE */
 
 /* HERO */
-.column > * {
-  margin-bottom: 20px;
-}
-.column > *:last-child {
-  margin-bottom: 0px;
-}
+
 .hero {
   min-height: 100vh;
   padding-bottom: 30px;
@@ -69,6 +64,13 @@
   color: currentColor;
 }
 /* MAIN CONTENT */
+
+.column > * {
+  margin-bottom: 20px;
+}
+.column > *:last-child {
+  margin-bottom: 0px;
+}
 
 .content-title {
   text-transform: uppercase;
